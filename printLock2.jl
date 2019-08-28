@@ -1,6 +1,6 @@
 '''
 Função para testar Lock em julia
-Durante a seção critica a thread imprime e espera um certo tempo
+Durante a seção critica a thread com a macro show informa o tempo de espera e a thread que realiza a funcao
 '''
 using Base.Threads
 
